@@ -9,7 +9,14 @@
 <body>
     <div class="site-container">
         <header class="site-header text-center">
+             <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/1285/1285154.png" alt="Logo do site">
+            </div>
             <h1>O Portal do Monitoramento Marinho</h1>
+            
+            
+        </header>
+            
         </header>
 
         <nav class="site-nav">
@@ -126,7 +133,7 @@
             </section>
 
             <section id="ask-scientist" class="ask-scientist section">
-                <!-- Seção de pergunte ao cientista -->
+        
             <h1>Nossos Serviços: O Que Oferecemos</h1>
             No NossoSite, oferecemos uma variedade de serviços para atender às necessidades de nossos usuários:
             1.Dados em Tempo Real:Acesse dados atualizados sobre temperatura da água, salinidade, qualidade da água e muito mais.
@@ -146,9 +153,13 @@
             </section>
 
             <section id="ranking" class="ranking section">
-                <h1> Monitoramento ambiental do bentos </h1>
-                <iframe width="640" height="360" src="https://eaulas.usp.br/portal/embed-video?idItem=27608&autostart=false" frameborder="0" scrolling="no" allowfullscreen></iframe>         
-                <p> O monitoramento ambiental do bentos é essencial para entender a saúde dos ecossistemas marinhos. Este processo envolve a coleta de dados sobre a diversidade e abundância de organismos que habitam o fundo do mar. Utilizando diversas técnicas, como amostragem por arrasto e observação remota, os cientistas podem avaliar o impacto das atividades humanas, identificar espécies indicadoras e informar políticas de conservação. Embora existam desafios, como a cobertura limitada e a identificação precisa de espécies, o avanço tecnológico oferece perspectivas promissoras para melhorar o monitoramento e a gestão dos ecossistemas bentônicos marinhos.</p>
+                <h1> Monitoramento ambiental</h1>
+                   
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QCL7VXuO35g?si=zx4Q6gfMakscQwmr&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VAnZ8lJtBio?si=acjN8hVyIr1rdyjD&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p> Explore nosso centro de monitoramento da vida marinha em tempo real, onde oferecemos transmissões ao vivo de recifes de coral, cardumes de peixes, tubarões e muito mais. Nossa equipe identifica e cataloga as espécies marinhas e fornece análises detalhadas dos dados coletados. Além disso, promovemos a educação ambiental e incentivamos a participação pública na proteção dos oceanos. Junte-se a nós nessa missão de preservar os tesouros do mar para as futuras gerações!
+
+</p>
             </section>
 
             <section id="contact" class="contact section">
@@ -181,6 +192,7 @@
         </footer>
     </div>
 </body
+<<<<<<< HEAD
 <body>
     <div class="ocean">
         <div class="bubble"></div>
@@ -196,5 +208,465 @@
         <div class="seaweed"></div>
     </div> 
 </body>
+=======
+    <body>
+    
+        <div class="Ocean">
+            
+               <style> 
+                body {
+                    background-image: url("https://i.makeagif.com/media/3-24-2018/MEBMna.gif");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+                
+               </style>
+            </div>
+>>>>>>> 4dda8d4ae74832828d321be4a073a1635cb9b7cd
     <script src="script.js"></script>
+        <body>
+    <style>
+        body {width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(0deg, #022244, #58c8da);
+    margin: 0;}
+    .about {
+    position: fixed;
+    z-index: 10;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: all 0.2s ease;
+}
+
+.bg_links {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(#000000, 0.2);
+    backdrop-filter: blur(5px);
+    position: absolute;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    z-index: 9;
+    background-image: url(https://rafaelalucas91.github.io/assets/codepen/logo_white.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 10px 7px;
+    opacity: 0.9;
+    transition: all 1s 0.2s ease;
+    bottom: 0;
+    right: 0;
+}
+
+.social {
+    opacity: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    display: flex;
+    transition: all 0.2s ease, background-color 0.4s ease;
+    opacity: 0;
+    border-radius: 100%;
+}
+
+.social.portfolio {
+    transition: all 0.8s ease;
+}
+
+.social.dribbble {
+    transition: all 0.3s ease;
+}
+
+.social.linkedin {
+    transition: all 0.8s ease;
+}
+
+.about:hover {
+    width: 105px;
+    height: 105px;
+    transition: all 0.6s ease;
+}
+
+.logo {
+    opacity: 1;
+    transition: all 0.6s ease;
+}
+
+.social {
+    opacity: 1;
+}
+
+.icon {
+    opacity: 0.9;
+}
+
+.social.portfolio {
+    right: 0;
+    bottom: calc(100% - 40px);
+    transition: all 0.3s 0s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+}
+
+.social.portfolio .icon:hover {
+    background-color: #698fb7;
+}
+
+.social.dribbble {
+    bottom: 45%;
+    right: 45%;
+    transition: all 0.3s 0.15s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+}
+
+.social.dribbble .icon:hover {
+    background-color: #ea4c89;
+}
+
+.social.linkedin {
+    bottom: 0;
+    right: calc(100% - 40px);
+    transition: all 0.3s 0.25s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+}
+
+.social.linkedin .icon:hover {
+    background-color: #0077b5;
+}
+
+.ocean {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.ocean::after, .ocean::before {
+    background-color: white;
+    width: 120%;
+    height: 120px;
+    position: absolute;
+    content: '';
+    top: -80px;
+    left: -10%;
+    border-radius: 100%;
+    animation: waves 10s ease infinite;
+    opacity: 0.2;
+}
+
+.ocean::before {
+    top: -60px;
+    animation-delay: 5s;
+    opacity: 0.1;
+    left: -5%;
+}
+
+@keyframes waves {
+    0%, 100% {transform: rotate(-2deg);}
+    50% {transform: rotate(2deg);}
+}
+
+.bubbles {
+    width: 100%;
+    height: 100vh;
+    animation: bubbles 10s linear infinite;
+}
+
+@keyframes bubbles {
+    0%, 100% {transform: rotate(-5deg);}
+    50% {transform: rotate(5deg);}
+}
+
+.bubbles span {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: white;
+    bottom: -10%;
+    animation: bubble 10s ease-in-out infinite;
+}
+
+@keyframes bubble {
+    0% {bottom: -10%; opacity: 0;}
+    100% {bottom: 100%;}
+}
+
+.bubbles span:nth-child(1) {
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+    left: 10%;
+    animation-delay: 3s;
+    animation-duration: 10s;
+    opacity: 0.2;
+}
+
+.bubbles span:nth-child(2) {
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+    left: 40%;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    opacity: 0.1;
+}
+
+.bubbles span:nth-child(3) {
+    width: 10px;
+    height: 10px;
+    opacity: 0.5;
+    left: 30%;
+    animation-delay: 5s;
+    animation-duration: 20s;
+    opacity: 0.3;
+}
+
+.bubbles span:nth-child(4) {
+    width: 35px;
+    height: 35px;
+    opacity: 0.5;
+    left: 40%;
+    animation-delay: 8s;
+    animation-duration: 8s;
+    opacity: 0.2;
+}
+
+.bubbles span:nth-child(5) {
+    width: 45px;
+    height: 45px;
+    opacity: 0.5;
+    left: 60%;
+    animation-delay: 10s;
+    animation-duration: 15s;
+    opacity: 0.1;
+}
+
+.bubbles span:nth-child(6) {
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+    left: 80%;
+    animation-delay: 3s;
+    animation-duration: 30s;
+    opacity: 0.4;
+}
+
+.bubbles span:nth-child(7) {
+    width: 15px;
+    height: 15px;
+    opacity: 0.5;
+    left: 90%;
+    animation-duration: 25s;
+    opacity: 0.3;
+}
+
+.bubbles span:nth-child(8) {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+    left: 50%;
+    animation-duration: 10s;
+    opacity: 0.2;
+}
+
+.fish {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: orange;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: inset 0px -6px 0px rgba(0, 0, 0, 0.1);
+    animation: fish 40s ease-in infinite;
+}
+
+@keyframes fish {
+    0% { left: calc(100% + 30px); top: 60%;}
+    50% {top: 40%}
+    100% {left: -20%; top: 50%;}
+}
+
+.fish::after, .fish::before {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: inherit;
+    content: '';
+    position: absolute;
+    top: 30%;
+    right: -20px;
+    transform: rotate(-20deg);
+    z-index: -1;
+    animation: tail 2s ease infinite;
+}
+
+.fish::before {
+    top: 42%;
+    transform: rotate(20deg);
+}
+
+@keyframes tail {
+    0%, 100% {right: -20px;}
+    50% {right: -10px;}
+}
+
+.fish span {
+    content: '';
+    position: absolute;
+}
+
+.fish span:nth-child(1), .fish span:nth-child(2) {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.1);
+    top: 20px;
+    z-index: -2;
+}
+
+.fish span:nth-child(2) {
+    z-index: 0;
+    left: 35px;
+    top: 25px;
+}
+
+.fish span:nth-child(1)::after, .fish span:nth-child(2)::after {
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background-color: #2a2a2a;
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 6px;
+    left: 6px;
+    box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.5);
+    animation: eyes 4s ease infinite;
+}
+
+@keyframes eyes {
+    0%, 100% { top: 4px;}
+    50% { top: 10px;}
+}
+
+.fish span:nth-child(3) {
+    border-radius: 100%;
+    width: 25px;
+    height: 15px;
+    background-color: brown;
+    box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.3);
+    top: 50px;
+    left: -5px;
+    z-index: 1;
+    transform: rotate(5deg);
+    border: solid 5px orange;
+    animation: mouth 4s ease infinite;
+}
+
+@keyframes mouth {
+    0%, 100% { height: 25px; width: 15px;}
+    50% { height: 15px; width: 8px;}
+}
+
+.fish span:nth-child(4), .fish span:nth-child(5), .fish span:nth-child(6) {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    box-shadow: inset 0px 5px 0px rgba(0, 0, 0, 0.3);
+    top: 20px;
+    left: -30px;
+    z-index: -2;
+    opacity: 0.3;
+    animation: fishbubbles 4s ease infinite;
+    z-index: 2;
+}
+
+.fish span:nth-child(5) {
+    animation-delay: 0.5s;
+    width: 20px;
+    height: 20px;
+}
+
+.fish span:nth-child(6) {
+    animation-delay: 1s;
+    width: 10px;
+    height: 10px;
+}
+
+@keyframes fishbubbles {
+    0% { 
+      width: 0;
+      height: 0;
+      top: 70px;
+      left: 2px;
+    }
+
+    50% {left: -20px;}
+
+    100% {
+      top: -80px;
+      opacity: 0;
+    }
+  }
+
+    </style>
+    <div class="about">
+        <a class="bg_links social portfolio" href="https://www.rafaelalucas.com" target="_blank">
+           <span class="icon"></span>
+        </a>
+        <a class="bg_links social dribbble" href="https://dribbble.com/rafaelalucas" target="_blank">
+           <span class="icon"></span>
+        </a>
+        <a class="bg_links social linkedin" href="https://www.linkedin.com/in/rafaelalucas/" target="_blank">
+           <span class="icon"></span>
+        </a>
+        <a class="bg_links logo"></a>
+     </div>
+     <!-- end about -->
+     
+     <div class="ocean">
+       <div class="bubbles">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+       </div>
+       <div class="fish">
+         <!-- eyes -->
+         <span></span>
+         <span></span>
+         <!-- mouth -->
+         <span></span>
+         <!-- bubbles -->
+         <span></span>
+         <span></span>
+         <span></span>
+       </div>
+     </div>
+     <!-- end ocean -->
+</body>
 </html>
