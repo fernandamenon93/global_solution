@@ -8,6 +8,22 @@ html {
     scroll-behavior: smooth;
   }
 
+.site-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 50px; 
+    height: auto; 
+}
+
+
+
 .table-dark {
     background-color: #343a40;
 }
