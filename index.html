@@ -13,6 +13,19 @@
                 <img src="https://cdn-icons-png.flaticon.com/512/1285/1285154.png" alt="Logo do site">
             </div>
             <h1>O Portal do Monitoramento Marinho</h1>
+            
+            <div class="login-container">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <label for="username">Nome de Usuário:</label>
+                    <input type="text" id="username" name="username" required>
+                    
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                    
+                    <button type="submit">Login</button>
+                </form>
+            </div>
         </header>
             
         </header>
@@ -162,11 +175,12 @@
 
             <section id="contact" class="contact section">
                 <h2 class="section-title">Contato</h2>
-                <P> Tem perguntas ou comentários?</P> 
-                <p>Entre em contato conosco! </p>
-                <p>Estamos aqui para ajudar e valorizamos seu feedback. Você pode nos contatar através do formulário de contato em nosso site ou enviando um e-mail diretamente para nossa equipe. Estamos ansiosos para ouvir de você!</P>
+                <p>Tem perguntas ou comentários?</p>
+                <p>Entre em contato conosco!</p>
+                <p>Estamos aqui para ajudar e valorizamos seu feedback. Você pode nos contatar através do formulário de contato
+                 em nosso site ou enviando um e-mail diretamente para nossa equipe. Estamos ansiosos para ouvir de você!</p>
                 <div class="container">
-                    <form action="processar_formulario.php" method="POST">
+                    <form id="contactForm" action="processar_formulario.php" method="POST">
                         <div class="form-group">
                             <label for="nome">Nome:</label>
                             <input type="text" id="nome" name="nome" required>
@@ -189,8 +203,9 @@
             O Portal do Monitoramento Marinho - Todos os direitos reservados
         </footer>
     </div>
-</body>
+    
 
 
     <script src="script.js"></script>
+</body>    
 </html>

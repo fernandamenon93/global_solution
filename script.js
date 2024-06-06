@@ -1,3 +1,19 @@
+
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Impede o envio do formulário
+
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    // Verifica as credenciais (exemplo simples, não seguro para produção)
+    if (username === 'fiap@gmail.com' && password === 'espv1') {
+        alert('Login confirmado!');
+    } else {
+        alert('Nome de usuário ou senha incorretos, favor digitar novamente.');
+    }
+});
+
+
 document.addEventListener("DOMContentLoaded", () => {
     // Criar Alerta
     document.getElementById("alertButton").addEventListener("click", () => {
@@ -48,3 +64,4 @@ function updateDOM() {
 }
 
 updateDOM();
+
