@@ -13,7 +13,22 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     }
 });
 
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Impede o envio do formulário
 
+    const nome = document.getElementById('nome').value;
+    const email = document.getElementById('email').value;
+    const mensagem = document.getElementById('mensagem').value;
+
+    // Simples validação (você pode adicionar mais validações conforme necessário)
+    if (nome && email && mensagem) {
+        alert('Formulário enviado com sucesso!');
+        // Aqui você pode adicionar código para enviar o formulário, por exemplo, usando AJAX
+        // this.submit(); // Envia o formulário
+    } else {
+        alert('Por favor, preencha todos os campos.');
+    }
+});
 document.addEventListener("DOMContentLoaded", () => {
     // Criar Alerta
     document.getElementById("alertButton").addEventListener("click", () => {
@@ -64,4 +79,5 @@ function updateDOM() {
 }
 
 updateDOM();
+
 
