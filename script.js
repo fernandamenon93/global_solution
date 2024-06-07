@@ -1,11 +1,13 @@
-
+document.getElementById('show-login-button').addEventListener('click', function() {
+    window.open('login.html', '_blank');
+});
 document.getElementById('loginForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Impede o envio do formulário
+    event.preventDefault();
 
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    // Verifica as credenciais (exemplo simples, não seguro para produção)
+   
     if (username === 'fiap@gmail.com' && password === 'espv1') {
         alert('Login confirmado!');
     } else {
@@ -14,7 +16,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 });
 
 document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Impede o envio do formulário
+    event.preventDefault();
 
     const nome = document.getElementById('nome').value;
     const email = document.getElementById('email').value;
