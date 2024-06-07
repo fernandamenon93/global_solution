@@ -22,22 +22,21 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     const email = document.getElementById('email').value;
     const mensagem = document.getElementById('mensagem').value;
 
-    // Simples validação (você pode adicionar mais validações conforme necessário)
+   
     if (nome && email && mensagem) {
         alert('Formulário enviado com sucesso!');
-        // Aqui você pode adicionar código para enviar o formulário, por exemplo, usando AJAX
-        // this.submit(); // Envia o formulário
+       
     } else {
         alert('Por favor, preencha todos os campos.');
     }
 });
 document.addEventListener("DOMContentLoaded", () => {
-    // Criar Alerta
+    
     document.getElementById("alertButton").addEventListener("click", () => {
         alert("Alerta criado!");
     });
 
-    // Validação de Login
+  
     document.getElementById("loginButton").addEventListener("click", () => {
         const username = document.getElementById("username").value;
         const password = document.getElementById("password").value;
@@ -49,7 +48,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    // Carrossel Dinâmico
     let currentSlide = 0;
     const slides = document.querySelectorAll(".carousel-item");
     const totalSlides = slides.length;
@@ -66,15 +64,11 @@ document.addEventListener("DOMContentLoaded", () => {
         slides[currentSlide].classList.add("active");
     });
 
-    // Efeitos Diversos
     document.getElementById("effectButton").addEventListener("click", () => {
         document.getElementById("effectBox").classList.toggle("transformed");
     });
-
-    // Responsividade (já implementada no CSS)
 });
 
-// Manipulação do DOM
 function updateDOM() {
     const responsiveTest = document.getElementById("responsiveTest");
     responsiveTest.innerText = "Responsividade ativa!";
