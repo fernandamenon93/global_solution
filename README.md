@@ -16,3 +16,4 @@ O Sistema de Monitoramento Marinho é uma solução completa para fornecer dados
 4-Relatório de Condições do Mar:
    - Pescadores e membros de comunidades costeiras podem utilizar a função de relatório para enviar informações sobre as condições do mar em sua área.
 
+grupo:Eduardo fakiani,Fernanda Rocha Menon, Luiza Macena Dantas.
